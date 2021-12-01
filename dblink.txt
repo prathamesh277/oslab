@@ -1,0 +1,7 @@
+mongodb+srv://prathamesh:<Pratham@15>@cluster0.23luz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+gJeWhz2cC5KeQDek
+
+
+working
+mongodb+srv://prathamesh:G4mzIfdkB5KFufh3@cluster0.sqgnq.mongodb.net/FirstDatabase?retryWrites=true&w=majority';
+testing password:G4mzIfdkB5KFufh3

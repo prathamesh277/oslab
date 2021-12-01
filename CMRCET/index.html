@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-1.0">
+        
+        <title>university website</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="logo.jpg" ></a>
+                <div class="nav-links" id="navlinks" >
+                    <i class="fa fa-times-circle" onclick="hidemenu()" ></i>   
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="http://localhost:3000/flogin" target="_blank">Faculty login</a></li>
+                        <li><a href="http://localhost:3000/" target="_blank">Student login</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+
+                </div>
+                <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()" ></i>
+            </nav>
+            <div class="text-box">
+                <h1>STUDENT PERMISSION ACCESS</h1>
+                <p>Information About College</p>
+                <a href="https://cmrcet.ac.in/" target="_blank" class="button">click here to know more about college</a>
+
+            </div>
+        </section>
+      <script>
+          var navlinks=document.getElementById("navlinks");
+          function showmenu(){
+              navlinks.style.right="0";
+          }
+          function hidemenu(){
+              navlinks.style.right="-200px";
+          }
+      </script>  
+    </body>
+</html>
